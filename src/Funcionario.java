@@ -1,6 +1,6 @@
 public class Funcionario {
     private int cdFunc;
-    private String funcaoFun;
+    private FuncaoFuncionario funcaoFun;
     private String nomeFun;
 
     public int getCdFunc() {
@@ -11,11 +11,11 @@ public class Funcionario {
         this.cdFunc = cdFunc;
     }
 
-    public String getFuncaoFun() {
+    public FuncaoFuncionario getFuncaoFun() {
         return funcaoFun;
     }
 
-    public void setFuncaoFun(String funcaoFun) {
+    public void setFuncaoFun(FuncaoFuncionario funcaoFun) {
         this.funcaoFun = funcaoFun;
     }
 

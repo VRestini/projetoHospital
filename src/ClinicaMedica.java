@@ -1,7 +1,7 @@
 public class ClinicaMedica {
     private int cdCli;
     private String unidade;
-    private String setor;
+    private SetorClinica setor;
     private String endereco;
 
     public int getCdCli() {
@@ -20,11 +20,11 @@ public class ClinicaMedica {
         this.unidade = unidade;
     }
 
-    public String getSetor() {
+    public SetorClinica getSetor() {
         return setor;
     }
 
-    public void setSetor(String setor) {
+    public void setSetor(SetorClinica setor) {
         this.setor = setor;
     }
 

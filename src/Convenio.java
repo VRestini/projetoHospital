@@ -1,6 +1,6 @@
 public class Convenio {
     private int cdConv;
-    private String tipoConv;
+    private TipoConvenio tipoConv;
     private String nomeConv;
 
     public int getCdConv() {
@@ -11,11 +11,11 @@ public class Convenio {
         this.cdConv = cdConv;
     }
 
-    public String getTipoConv() {
+    public TipoConvenio getTipoConv() {
         return tipoConv;
     }
 
-    public void setTipoConv(String tipoConv) {
+    public void setTipoConv(TipoConvenio tipoConv) {
         this.tipoConv = tipoConv;
     }
 

@@ -1,7 +1,7 @@
 public class Medico {
     private int cdMed;
     private String nomeMed;
-    private String especializacaoMed;
+    private EspecializacaoMedico especializacaoMed;
     private int telefoneMed;
     private String docCrm;
 
@@ -21,11 +21,11 @@ public class Medico {
         this.nomeMed = nomeMed;
     }
 
-    public String getEspecializacaoMed() {
+    public EspecializacaoMedico getEspecializacaoMed() {
         return especializacaoMed;
     }
 
-    public void setEspecializacaoMed(String especializacaoMed) {
+    public void setEspecializacaoMed(EspecializacaoMedico especializacaoMed) {
         this.especializacaoMed = especializacaoMed;
     }
 

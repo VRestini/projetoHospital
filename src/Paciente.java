@@ -1,10 +1,10 @@
 public class Paciente {
     private int cdPaci;
     private int telefonePaci;
-    private String sexoPaci;
+    private Sexo sexoPaci;
     private String nomePaci;
     private String historicoPaci;
-    private String religiaoPaci;
+    private Religiao religiaoPaci;
     private int idadePaci;
 
     public int getCdPaci() {
@@ -23,11 +23,11 @@ public class Paciente {
         this.telefonePaci = telefonePaci;
     }
 
-    public String getSexoPaci() {
+    public Sexo getSexoPaci() {
         return sexoPaci;
     }
 
-    public void setSexoPaci(String sexoPaci) {
+    public void setSexoPaci(Sexo sexoPaci) {
         this.sexoPaci = sexoPaci;
     }
 
@@ -47,11 +47,11 @@ public class Paciente {
         this.historicoPaci = historicoPaci;
     }
 
-    public String getReligiaoPaci() {
+    public Religiao getReligiaoPaci() {
         return religiaoPaci;
     }
 
-    public void setReligiaoPaci(String religiaoPaci) {
+    public void setReligiaoPaci(Religiao religiaoPaci) {
         this.religiaoPaci = religiaoPaci;
     }
 

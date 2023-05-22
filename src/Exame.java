@@ -1,6 +1,6 @@
 public class Exame {
     private int cdExame;
-    private String tipoExa;
+    private TipoExame tipoExa;
     private String resultExame;
     private int localExame;
     private int medicoExame;
@@ -13,11 +13,11 @@ public class Exame {
         this.cdExame = cdExame;
     }
 
-    public String getTipoExa() {
+    public TipoExame getTipoExa() {
         return tipoExa;
     }
 
-    public void setTipoExa(String tipoExa) {
+    public void setTipoExa(TipoExame tipoExa) {
         this.tipoExa = tipoExa;
     }
 
