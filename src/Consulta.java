@@ -1,7 +1,10 @@
 import java.time.LocalDate;
+import java.time.LocalTime;
+
 public class Consulta {
     private int cdCons;
-    private LocalDate horarioCons;
+    private LocalTime horarioCons;
+    private LocalDate dataCons;
     private int funCons;
     private int pacienteCons;
     private int consulCons;
@@ -14,11 +17,11 @@ public class Consulta {
         this.cdCons = cdCons;
     }
 
-    public LocalDate getHorarioCons() {
+    public LocalTime getHorarioCons() {
         return horarioCons;
     }
 
-    public void setHorarioCons(LocalDate horarioCons) {
+    public void setHorarioCons(LocalTime horarioCons) {
         this.horarioCons = horarioCons;
     }
 
@@ -44,5 +47,13 @@ public class Consulta {
 
     public void setConsulCons(int consulCons) {
         this.consulCons = consulCons;
+    }
+
+    public LocalDate getDataCons() {
+        return dataCons;
+    }
+
+    public void setDataCons(LocalDate dataCons) {
+        this.dataCons = dataCons;
     }
 }

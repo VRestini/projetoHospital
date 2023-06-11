@@ -1,7 +1,7 @@
 public class Laboratorio {
     private int cdLab;
     private String numLab;
-    private EspecializacaoMedico especializacaoLab;
+    private EspecializacaoLab especializacaoLab;
     private int localLab;
 
     public int getCdLab() {
@@ -20,11 +20,11 @@ public class Laboratorio {
         this.numLab = numLab;
     }
 
-    public EspecializacaoMedico getEspecializacaoLab() {
+    public EspecializacaoLab getEspecializacaoLab() {
         return especializacaoLab;
     }
 
-    public void setEspecializacaoLab(EspecializacaoMedico especializacaoLab) {
+    public void setEspecializacaoLab(EspecializacaoLab especializacaoLab) {
         this.especializacaoLab = especializacaoLab;
     }
 
