@@ -5,7 +5,7 @@ public class Consulta {
     private int cdCons;
     private LocalTime horarioCons;
     private LocalDate dataCons;
-    private int funCons;
+    private int cdMed;
     private int pacienteCons;
     private int consulCons;
 
@@ -26,11 +26,11 @@ public class Consulta {
     }
 
     public int getFunCons() {
-        return funCons;
+        return cdMed;
     }
 
     public void setFunCons(int funCons) {
-        this.funCons = funCons;
+        this.cdMed = funCons;
     }
 
     public int getPacienteCons() {
